@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Estilo para botões de números */
+.btn-number {
+  @apply bg-lilac text-white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilo para botões de operadores e botões adicionais */
+.btn-operator {
+  @apply bg-indigo text-white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilo para o botão C */
+.btn-c {
+  @apply bg-rose text-white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estilo para o botão = */
+.btn-equal {
+  @apply bg-sky text-white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilo para o container da calculadora */
+.calculator-container {
+  @apply bg-white p-8 rounded-lg shadow-lg w-80;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilo para o fundo da página */
+.bg-lightblue {
+  background-color: #e0f7fa; /* Azul claro */
 }
