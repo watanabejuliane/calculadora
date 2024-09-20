@@ -16,3 +16,6 @@ O objetivo é aplicar os conhecimentos adquiridos no **Guide Start** do React e 
 - **React**: Biblioteca JavaScript para construção da interface de usuário.
 - **Tailwind CSS**: Framework de CSS utilitário para estilização e design responsivo.
 - **MathJS**: Biblioteca para realizar cálculos matemáticos.
+
+## Resultado ✅
+Veja o resultado [neste link](https://calculadora-mocha-six.vercel.app/) !
